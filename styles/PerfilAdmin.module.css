@@ -1,0 +1,90 @@
+.h1{
+    text-align: center;
+}
+.containerConsultas{
+    text-align: center;
+    border: 1px solid black;
+    margin: 10px
+}
+.spam{
+    font-size: 10px;
+}
+.consulta{
+    font-size: 20px;
+}
+.button{
+    float: right;
+}
+.button:hover{
+    cursor: pointer;
+}
+.modalContainer {
+    display: none; 
+    position: fixed; 
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+
+}
+.modalContainer .modalContent {
+    background-color: #fefefe;
+    margin: auto;
+    /* padding-bottom: 20px; */
+    border: 1px solid lightgray;
+    width: 60%;
+}
+.modalContainer .close {
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.modalContainer .close:hover,
+.modalContainer .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.table{
+    margin: auto;
+    text-align: center;
+    border-spacing: 0;
+    width: 70%
+}
+.cabeceraTable{
+    border: 1px solid black;
+    background-color: rgb(161, 161, 161);
+    width: 20%
+}
+.contTable{
+    padding: 15px;
+    border: 1px solid black;
+    width: 20%;
+}
+.input{
+    display: block;
+    width: 40%;
+}
+.containerEditUser{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+.containerCitas{
+    text-align: center;
+    border: 1px solid black;
+    margin: 10px
+}
+.nameCitas{
+    font-size: 20px;
+}
+.fechaCitas{
+    font-size: 13px
+}

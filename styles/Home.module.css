@@ -1,0 +1,84 @@
+.h1{
+  text-align: center;
+}
+.sliderContainer{
+  text-align: center;
+}
+.img{
+  margin-right: 20%;
+  margin-left: 20%;
+}
+.cartaBox {
+  position: relative;
+  perspective: 1000px;
+  margin:auto;
+}
+.cartaBox:hover .carta {
+    transform: rotateY(180deg);
+}
+.carta {
+  transform-style: preserve-3d;
+  transition: all 1s linear;
+}
+.cara {
+  position: absolute;
+  backface-visibility: hidden;
+}
+.caraDetras {
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+.oferta{
+  display: inline-block;
+}
+.ofertaContainer{
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.cabeceraContainer {
+  position: relative;
+  background: black;
+  overflow: hidden;
+  text-align: center;
+  color: white;
+}
+
+.cabecerah1{
+  padding-top: 50px;
+  position: relative;
+  z-index: 2;
+  margin-top: 200px;
+}
+
+.cabecerah3{
+  position: relative;
+  z-index: 2;
+  padding-bottom: 50px;
+  padding-top: 25px;
+  opacity: 0.8
+}
+
+.cabeceraContainer:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.6;
+  background-image: url('../public/imagenLocal.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+.link{
+  color: blue;
+  text-decoration: underline blue;
+  display: inline
+}
+.informacion{
+  text-align: center;
+}

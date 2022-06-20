@@ -1,0 +1,114 @@
+.container{
+    text-align: center;
+}
+.img{
+    border-radius: 50px;
+}
+.tabla{
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    border-spacing: 0px;
+}
+.h2{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.dias{
+    background-color: rgb(161, 161, 161);
+    border: 1px solid black;
+}
+.horas{
+    border: 1px solid black;
+}
+.containerCom{
+    margin-top: 5rem;
+}
+.comentarios{
+    border: 1px solid black;
+    height: 200px;
+    margin: 5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    overflow-y: scroll;
+}
+.inpAnadeCom{
+    width: 40%;
+    text-align: center;
+    margin-bottom: 5rem;
+    display: block;
+    top: 5rem;
+    margin: auto;
+}
+.button{
+    margin-bottom: 20px;
+}
+.button:hover{
+    cursor: pointer;
+}
+.error{
+    text-align: center;
+    color: red;
+}
+.modalContainer {
+    display: none; 
+    position: fixed; 
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+
+}
+.modalContainer .modalContent {
+    background-color: #fefefe;
+    margin: auto;
+    /* padding-bottom: 20px; */
+    border: 1px solid lightgray;
+    width: 60%;
+}
+.modalContainer .close {
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.modalContainer .close:hover,
+.modalContainer .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.textarea{
+    resize: none;
+    overflow-y: scroll;
+    width: 40%;
+    text-align: center;
+    margin-bottom: 5rem;
+    display: block;
+    top: 5rem;
+    margin: auto;
+}
+.containerOp{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    /* width: 350px */
+    height: 200px;
+    scroll-behavior: smooth;
+    border: 1px solid black;
+}
+.opiniones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 5em;
+}
+.userOp{
+    font-size: 25px
+}

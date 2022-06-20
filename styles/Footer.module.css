@@ -1,0 +1,27 @@
+.container{
+    color: white;
+    background-color: black;
+    text-align: center;
+    display: inline-block;
+    height: 20vh
+}
+.div{
+    width: 25%;
+    height: 375px;
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: black;
+}
+.img, .p{
+    display: inline;
+}
+.UNTAP:hover{
+    cursor: pointer;
+}
+.link{
+    display: block;
+}
+.h1{
+    font-family: 'Courier New', Courier, monospace
+}

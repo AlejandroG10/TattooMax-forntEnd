@@ -1,0 +1,32 @@
+.cambiaForm{
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+}
+.contenedor{
+    background-color: black;
+    color: white;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    float: right;
+  }
+.input{
+    display: block;
+}
+.button{
+    float: right;
+}
+.popupButton{
+    background-color: black;
+    color: white;
+    margin-left: 15px;
+}
+.popupButton:hover, .buttonRemoveToken:hover, .button:hover, .cambiaForm:hover{
+    cursor: pointer;
+}
+.contenedorPopup{
+    text-align: center;
+}
+.buttonRemoveToken{
+    width: 50%;
+}
