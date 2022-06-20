@@ -25,7 +25,7 @@ export default function Home() {
 // require()  '../public/slider/tatu2.jpg';
 // require()  '../public/slider/local3.jpg';
 // require()  '../public/slider/tatu3.jpg';
-require('../public/ofertas/oferta.png')  ;
+// require('../public/ofertas/oferta.png')  ;
 // require()  '../public/ofertas/oferta1.png';
 // require()  '../public/ofertas/oferta2.png';
 // require()  '../public/ofertas/oferta3.png';
